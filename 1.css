@@ -1,0 +1,1554 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.heading-container-full{
+    width: 100%;
+    height: 130px;
+    background-color: rgba(0, 0, 0, 0.901);
+}
+.heading-container{
+    width: 78%;
+    height: 100%;
+    margin: auto;
+}
+.heading-container .logo{
+    width: 22%;
+    height: 80%;
+    padding-top: 7px;
+    margin-right: 20px;
+    float: left;
+}
+.heading-container .header-ads{
+    width:76%;
+    height: 77%;
+    margin-top: 14px;
+    float: left;
+    background-color: rgb(247, 0, 0);
+}
+.heading-container .logo img{
+    width: 85px;
+    margin-top: 12px;
+    padding-left: 20px;
+}
+.heading-container .header-ads img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.manu-container-full{
+    width:100%;
+    background-color: rgb(255, 47, 47);
+    margin: 0;
+}
+.manu-container-full .manu-container{
+    width:74%;
+    margin: auto;
+    overflow: hidden;
+}
+.manu-container-full .manu-container ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.manu-container-full .manu-container ul li{
+    float:left;
+}
+.manu-container ul li a{
+    display: block;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "Koulen", sans-serif;
+    padding: 8px 20px ;
+    font-size: 19px;
+    opacity: 0.8;
+}
+.manu-container ul li a:hover{
+    opacity: 1;
+}
+.Homepage{
+    width:74%;
+    height: 540px;
+    margin: auto;
+}
+.Homepage .Content-homepage {
+    width: 73%;
+    height:100%;
+    float: left;
+}
+.Homepage .ads-homepage{
+    width: 26%;
+    height: 100%;
+    float: left;
+    margin-left: 1%;
+}
+.ads-homepage .ads{
+    width: 100%;
+    height: 49%;
+    margin-bottom: 3%;
+}
+.ads-homepage .ads1{
+    width: 100%;
+    height: 50%;
+}
+.ads-homepage .ads img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ads-homepage .ads1 img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Homepage .Content-homepage .news,.news2{
+    width: 60%;
+    height: 50%;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    overflow: hidden;
+}
+.Homepage .Content-homepage .news1,.news3{
+    width: 40%;
+    height: 50%;
+    float: left;
+    overflow: hidden;
+}
+.Homepage .Content-homepage .news .img{
+    background-image: url(/img/new1.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+
+}
+.Homepage .Content-homepage .news .img .title{
+    width: 90px;
+    height: 28px;
+    background-color: rgb(233, 46, 46);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: azure;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+.Homepage .Content-homepage .news .img .title p{
+    transform: translateX(-10px);
+    font-family: "Battambang", system-ui;
+}
+.Homepage .Content-homepage .news1 .img1{
+    background-image: url(/img/news2.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.Homepage .Content-homepage .news1 .img1 .title1{
+    width:130px;
+    height: 28px;
+    background-color: rgb(233, 46, 46);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: azure;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+.Homepage .Content-homepage .news1 .img1 .title1 p{
+    transform: translateX(-8px);
+    font-family: "Battambang", system-ui;
+}
+.Homepage .Content-homepage .news2 .img2{
+    background-image: url(/img/new3.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.Homepage .Content-homepage .news2 .img2 .title2{
+    width: 90px;
+    height: 28px;
+    background-color: rgb(233, 46, 46);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: azure;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+.Homepage .Content-homepage .news2 .img2 .title2 p{
+    transform: translateX(-7px);
+    font-family: "Battambang", system-ui;
+
+}
+.Homepage .Content-homepage .news3 .img3{
+    background-image: url(/img/new4.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.Homepage .Content-homepage .news3 .img3 .title3{
+    width: 115px;
+    height: 28px;
+    background-color: rgb(12, 166, 226);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: azure;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+  clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+.Homepage .Content-homepage .news3 .img3 .title3 p{
+    transform: translateX(-7px);
+    font-family: "Battambang", system-ui;
+}
+.news h2{
+    font-size: 19px;
+    color: white;
+    margin-left: 10px;
+    transition: 0.4s;
+    text-shadow: 2px 3px 3px black;
+    transform: translateY(149px);
+    font-family: "Battambang", system-ui;
+}
+.news h2 span{
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+}
+.news:hover h2{
+    transform: translateY(110px);
+    color: rgb(224, 38, 38);
+    font-family: "Battambang", system-ui;
+}
+.news:hover h2 span{
+    opacity: 1;
+    color: aliceblue;
+}
+.news1 h2{
+    font-size: 18px;
+    color: white;
+    margin-left: 10px;
+    transition: 0.4s;
+    text-shadow: 2px 3px 3px black;
+    transform: translateY(125px);
+    font-family: "Battambang", system-ui;
+}
+.news1 h2 span{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+.news1:hover h2{
+    transform: translateY(60px);
+    color: rgb(224, 38, 38);
+    font-family: "Battambang", system-ui;
+}
+.news1:hover h2 span{
+    opacity: 1;
+    color: aliceblue;
+}
+.news2 h2{
+    font-size: 19px;
+    color: white;
+    margin-left: 10px;
+    transition: 0.4s;
+    text-shadow: 2px 3px 3px black;
+    transform: translateY(155px);
+    font-family: "Battambang", system-ui;
+}
+.news2 h2 span{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+.news2:hover h2{
+    transform: translateY(90px);
+    color: rgb(224, 38, 38);
+    font-family: "Battambang", system-ui;
+}
+.news3 h2{
+    font-size: 19px;
+    color: white;
+    margin-left: 10px;
+    transition: 0.4s;
+    text-shadow: 2px 3px 3px black;
+    transform: translateY(118px);
+    font-family: "Battambang", system-ui;
+}
+.news3 h2 span{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+.news3:hover h2{
+    transform: translateY(50px);
+    color: rgb(224, 38, 38);
+    font-family: "Battambang", system-ui;
+}
+.Video-container{
+    width: 74%;
+    overflow: hidden;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+
+}
+.Video-container .sub-title{
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    border-bottom: 5px solid rgb(224, 38, 38);
+    margin-bottom: 5px;
+}
+.Video-container .sub-title .title{
+    width: 12%;
+    height: 100%;
+    background: rgb(224, 38, 38);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Koulen", sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 1px;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+.Video-container .sub-title .title p{
+    transform: translateX(-10px);
+    font-size: 20px;
+}
+.Video-container .sub-news{
+    width: 100%;
+    height: 650px;
+    box-shadow: 20px;
+    outline: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.Video-container .sub-news .top-news{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Video-container .sub-news .buttom-news{
+    width: 100%;
+    height: 50%;
+}
+.Video-container .sub-news .top-news .top-new1{
+    width: 33%;
+    height: 100%;
+    
+}
+.Video-container .sub-news .top-news .top-new1 .top1{
+    width:100%;
+    height: 75%;
+    float: left;
+    background-image: url(/img/1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Video-container .sub-news .top-news .top-new1 .top1:hover{
+    transform: scale(0.97);
+}
+.Video-container .sub-news .top-news .top-new1  .top2{
+    width:100%;
+    height: 75%;
+    float: left;
+    background-image: url(/img/2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.Video-container .sub-news .top-news .top-new1 .top2:hover{
+    transform: scale(0.97);
+}
+.Video-container .sub-news .top-news .top-new1 .top3{
+    width:100%;
+    height: 74%;
+    float: left;
+    background-image: url(/img/3.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.Video-container .sub-news .top-news .top-new1 .top3:hover{
+    transform: scale(0.97);
+}
+p{
+    font-family: "Battambang", system-ui;
+    font-size: 16.3px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.84);
+}
+.buttom-news .new-container{
+    width:75%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float: left;
+    box-sizing: border-box;
+
+}
+.buttom-news .new-container  .small-news1 , .small-news2, .small-news3, .small-news4{
+    width:24%;
+    height: 68%;
+    background-color: white;
+    float: left;
+}
+.buttom-news .new-container .small-news5 , .small-news6, .small-news7, .small-news8{
+    width:24%;
+    height: 68%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.buttom-news .new-container  .small-news1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.buttom-news .new-container  .small-news1 img:hover{
+    transform: scale(0.97);
+}
+.buttom-news .new-container  .small-news1 p{
+    font-size: 9.5px;
+    transform: translateY(-8px);
+    color: rgba(0, 0, 0, 0.745);
+}
+.buttom-news .new-container  .small-news2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.buttom-news .new-container  .small-news2 img:hover{
+    transform: scale(0.97);
+}
+.buttom-news .new-container  .small-news2 p{
+    font-size: 9.5px;
+    transform: translateY(-8px);
+    color: rgba(0, 0, 0, 0.745);
+}
+.buttom-news .new-container  .small-news3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.buttom-news .new-container  .small-news3 img:hover{
+    transform: scale(0.97);
+}
+.buttom-news .new-container  .small-news3 p{
+    font-size: 9.5px;
+    transform: translateY(-8px);
+    color: rgba(0, 0, 0, 0.745);
+}
+.buttom-news .new-container  .small-news4 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.buttom-news .new-container  .small-news4 img:hover{
+    transform: scale(0.97);
+}
+.buttom-news .new-container  .small-news4 p{
+    font-size: 9.5px;
+    transform: translateY(-8px);
+    color: rgba(0, 0, 0, 0.745);
+}
+.buttom-news .new-container  .small-news5 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.buttom-news .new-container  .small-news5 img:hover{
+    transform: scale(0.97);
+}
+.buttom-news .new-container  .small-news5 p{
+    font-size: 9.5px;
+    transform: translateY(-8px);
+    color: rgba(0, 0, 0, 0.745);
+}
+.buttom-news .new-container  .small-news6 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.buttom-news .new-container  .small-news6 img:hover{
+    transform: scale(0.97);
+}
+.buttom-news .new-container  .small-news6 p{
+    font-size: 9.5px;
+    transform: translateY(-8px);
+    color: rgba(0, 0, 0, 0.745);
+}
+.buttom-news .new-container  .small-news7 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.buttom-news .new-container  .small-news7 img:hover{
+    transform: scale(0.97);
+}
+.buttom-news .new-container  .small-news7 p{
+    font-size: 9.5px;
+    transform: translateY(-8px);
+    color: rgba(0, 0, 0, 0.745);
+}
+.buttom-news .new-container  .small-news8 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.buttom-news .new-container  .small-news8 img:hover{
+    transform: scale(0.97);
+}
+.buttom-news .new-container  .small-news8 p{
+    font-size: 9.5px;
+    transform: translateY(-8px);
+    color: rgba(0, 0, 0, 0.745);
+}
+*
+.komsan-container{
+    width: 74%;
+    overflow: hidden;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+}
+.komsan-container .sub-komsan{
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    border-bottom: 5px solid rgba(255, 0, 89, 0.805);
+    margin-bottom: 5px;
+}
+.komsan-container .sub-komsan .title-komsan{
+    width: 12%;
+    height: 100%;
+    background: rgba(255, 0, 89, 0.805);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Koulen", sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 1px;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+.komsan-container .news-komsan{
+    width: 100%;
+    height: 450px;
+    box-shadow: 20px;
+    outline: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.komsan-container .news-komsan .news-komsan1{
+    width: 28%;
+    height:90%;
+    background-color: hsla(339, 100%, 66%, 0.805);
+    float: left;
+}
+.komsan-container .news-komsan .news-komsan1 .news-img{
+    width: 100%;
+    height: 60%;
+    background-image: url(/img/13.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.komsan-container .news-komsan .news-komsan1 p{
+    font-family: "Battambang", system-ui;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    margin-left: 16px;
+    margin-top: 10px;
+}
+.komsan-container .news-komsan .news-komsan1 .news-img:hover{
+    transform: scale(0.99);
+}
+.news-komsan .news-komsan2{
+    width: 70%;
+    margin-left: 2%;
+    height: 45%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.news-komsan .news-komsan2 .new-img2{
+    width:24.5%;
+    height: 98%;
+
+}
+.news-komsan .news-komsan2 .new-img2 .sub-img2{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 0, 217);
+    background-image: url(/img/a.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsan .news-komsan2 .new-img2 p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsan .news-komsan2 .new-img2 .sub-img2:hover{
+    transform: scale(0.97);
+}
+.news-komsan .news-komsan2 .new-img3{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsan .news-komsan2 .new-img3 .sub-img3{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 0, 217);
+    background-image: url(/img/b.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsan .news-komsan2 .new-img3 p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsan .news-komsan2 .new-img3 .sub-img3:hover{
+    transform: scale(0.97);
+}
+.news-komsan .news-komsan2 .new-img4{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsan .news-komsan2 .new-img4 .sub-img4{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 0, 217);
+    background-image: url(/img/c.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsan .news-komsan2 .new-img4 p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsan .news-komsan2 .new-img4 .sub-img4:hover{
+    transform: scale(0.97);
+}
+.news-komsan .news-komsan2 .new-img5{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsan .news-komsan2 .new-img5 .sub-img5{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 0, 217);
+    background-image: url(/img/d.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsan .news-komsan2 .new-img5 p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsan .news-komsan2 .new-img5 .sub-img5:hover{
+    transform: scale(0.97);
+}
+.news-komsan .news-komsan3 .new-img6{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsan .news-komsan3 .new-img6 .sub-img6{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 0, 217);
+    background-image: url(/img/d.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsan .news-komsan3 .new-img6 p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsan .news-komsan3 .new-img6 .sub-img6:hover{
+    transform: scale(0.97);
+}
+.news-komsan .news-komsan3{
+    width: 70%;
+    margin-left: 2%;
+    height: 45%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.news-komsan .news-komsan3 .new-img7{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsan .news-komsan3 .new-img7 .sub-img7{
+    width: 100%;
+    height: 65%;
+    background-image: url(/img/e.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsan .news-komsan3 .new-img7 p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsan .news-komsan3 .new-img7 .sub-img7:hover{
+    transform: scale(0.97);
+}
+.news-komsan .news-komsan3 .new-img8{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsan .news-komsan3 .new-img8 .sub-img8{
+    width: 100%;
+    height: 65%;
+    background-image: url(/img/f.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsan .news-komsan3 .new-img8 p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsan .news-komsan3 .new-img8 .sub-img8:hover{
+    transform: scale(0.97);
+}
+.news-komsan .news-komsan3 .new-img9{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsan .news-komsan3 .new-img9 .sub-img9{
+    width: 100%;
+    height: 65%;
+    background-image: url(/img/g.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsan .news-komsan3 .new-img9 p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsan .news-komsan3 .new-img9 .sub-img9:hover{
+    transform: scale(0.97);
+}
+.komsan-containera{
+    width: 74%;
+    overflow: hidden;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+}
+.komsan-containera .sub-komsana{
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    border-bottom: 5px solid rgba(0, 238, 255, 0.805);
+    margin-bottom: 5px;
+}
+.komsan-containera .sub-komsana .title-komsana{
+    width: 12%;
+    height: 100%;
+    background: rgba(0, 238, 255, 0.805);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Koulen", sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 1px;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+.komsan-containera .news-komsana{
+    width: 100%;
+    height: 450px;
+    box-shadow: 20px;
+    outline: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.komsan-containera .news-komsana .news-komsan1a{
+    width: 28%;
+    height:90%;
+    background-color: hsla(196, 100%, 50%, 0.782);
+    float: left;
+}
+.komsan-containera .news-komsana .news-komsan1a .news-imga{
+    width: 100%;
+    height: 60%;
+    background-image: url(/img/h.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.komsan-containera .news-komsana .news-komsan1a p{
+    font-family: "Battambang", system-ui;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    margin-left: 16px;
+    margin-top: 10px;
+}
+.komsan-containera .news-komsana .news-komsan1a .news-imga:hover{
+    transform: scale(0.99);
+}
+.news-komsana .news-komsan2a{
+    width: 70%;
+    margin-left: 2%;
+    height: 45%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.news-komsana .news-komsan2a .new-img2a{
+    width:24.5%;
+    height: 98%;
+
+}
+.news-komsana .news-komsan2a .new-img2a .sub-img2a{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 0, 217);
+    background-image: url(/img/new5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsana .news-komsan2a .new-img2a p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 10px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsana .news-komsan2a .new-img2a .sub-img2a:hover{
+    transform: scale(0.97);
+}
+.news-komsana .news-komsan2a .new-img3a{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsana .news-komsan2a .new-img3a .sub-img3a{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 0, 217);
+    background-image: url(/img/new6.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsana .news-komsan2a .new-img3a p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsana .news-komsan2a .new-img3a .sub-img3a:hover{
+    transform: scale(0.97);
+}
+.news-komsana .news-komsan2a .new-img4a{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsana .news-komsan2a .new-img4a .sub-img4a{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 0, 217);
+    background-image: url(/img/new7.png);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsana .news-komsan2a .new-img4a p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsana .news-komsan2a .new-img4a .sub-img4a:hover{
+    transform: scale(0.97);
+}
+.news-komsana .news-komsan2a .new-img5a{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsana .news-komsan2a .new-img5a .sub-img5a{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 0, 217);
+    background-image: url(/img/new8.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsana .news-komsan2a .new-img5a p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsana .news-komsan2a .new-img5a .sub-img5a:hover{
+    transform: scale(0.97);
+}
+.news-komsana .news-komsan3a .new-img6a{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsana .news-komsan3a .new-img6a .sub-img6a{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 0, 217);
+    background-image: url(/img/new9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsana .news-komsan3a .new-img6a p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsana .news-komsan3a .new-img6a .sub-img6a:hover{
+    transform: scale(0.97);
+}
+.news-komsana .news-komsan3a{
+    width: 70%;
+    margin-left: 2%;
+    height: 45%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.news-komsana .news-komsan3a .new-img7a{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsana .news-komsan3a .new-img7a .sub-img7a{
+    width: 100%;
+    height: 65%;
+    background-image: url(/img/new10.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsana .news-komsan3a .new-img7a p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsana .news-komsan3a .new-img7a .sub-img7a:hover{
+    transform: scale(0.97);
+}
+.news-komsana .news-komsan3a .new-img8a{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsana .news-komsan3a .new-img8a .sub-img8a{
+    width: 100%;
+    height: 65%;
+    background-image: url(/img/new11.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsana .news-komsan3a .new-img8a p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsana .news-komsan3a .new-img8a .sub-img8a:hover{
+    transform: scale(0.97);
+}
+.news-komsana .news-komsan3a .new-img9a{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsana .news-komsan3a .new-img9a .sub-img9a{
+    width: 100%;
+    height: 65%;
+    background-image: url(/img/g.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsana .news-komsan3a .new-img9a p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsana .news-komsan3a .new-img9a .sub-img9a:hover{
+    transform: scale(0.97);
+}
+.komsan-containerb{
+    width: 74%;
+    overflow: hidden;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+}
+.komsan-containerb .sub-komsanb{
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    border-bottom: 5px solid rgba(0, 255, 102, 0.997);
+    margin-bottom: 5px;
+}
+.komsan-containerb .sub-komsanb .title-komsanb{
+    width: 12%;
+    height: 100%;
+    background: rgba(0, 255, 102, 0.997);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Koulen", sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 1px;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+.komsan-containerb .news-komsanb{
+    width: 100%;
+    height: 450px;
+    box-shadow: 20px;
+    outline: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.komsan-containerb .news-komsanb .news-komsan1b{
+    width: 28%;
+    height:70%;
+    background-color: hsla(131, 100%, 28%, 0.877);
+    float: left;
+}
+.komsan-containerb .news-komsanb .news-komsan1b .news-imgb{
+    width: 100%;
+    height: 68%;
+    background-image: url(/img/new12.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.komsan-containerb .news-komsanb .news-komsan1b p{
+    font-family: "Battambang", system-ui;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    margin-left: 16px;
+    margin-top: 10px;
+}
+.komsan-containerb .news-komsanb .news-komsan1b .news-imgb:hover{
+    transform: scale(0.99);
+}
+.news-komsanb .news-komsan2b{
+    width: 70%;
+    margin-left: 2%;
+    height: 45%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.news-komsanb .news-komsan2b .new-img2b{
+    width:24.5%;
+    height: 98%;
+
+}
+.news-komsanb .news-komsan2b .new-img2b .sub-img2b{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 0, 217);
+    background-image: url(/img/new13.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsanb .news-komsan2b .new-img2b p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsanb .news-komsan2b .new-img2b .sub-img2b:hover{
+    transform: scale(0.97);
+}
+.news-komsanb .news-komsan2b .new-img3b{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsanb .news-komsan2b .new-img3b .sub-img3b{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 0, 217);
+    background-image: url(/img/new14.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsanb .news-komsan2b .new-img3b p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsanb .news-komsan2b .new-img3b .sub-img3b:hover{
+    transform: scale(0.97);
+}
+.news-komsanb .news-komsan2b .new-img4b{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsanb .news-komsan2b .new-img4b .sub-img4b{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 0, 217);
+    background-image: url(/img/new15.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsanb .news-komsan2b .new-img4b p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsanb .news-komsan2b .new-img4b .sub-img4b:hover{
+    transform: scale(0.97);
+}
+.news-komsanb .news-komsan2b .new-img5b{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsanb .news-komsan2b .new-img5b .sub-img5b{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 0, 217);
+    background-image: url(/img/new16.png);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsanb .news-komsan2b .new-img5b p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsanb .news-komsan2b .new-img5b .sub-img5b:hover{
+    transform: scale(0.97);
+}
+.news-komsanb .news-komsan3b .new-img6b{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsanb .news-komsan3b .new-img6b .sub-img6b{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 0, 217);
+    background-image: url(/img/new17.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsanb .news-komsan3b .new-img6b p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsanb .news-komsan3b .new-img6b .sub-img6b:hover{
+    transform: scale(0.97);
+}
+.news-komsanb .news-komsan3b{
+    width: 70%;
+    margin-left: 2%;
+    height: 45%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.news-komsanb .news-komsan3b .new-img7b{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsanb .news-komsan3b .new-img7b .sub-img7b{
+    width: 100%;
+    height: 65%;
+    background-image: url(/img/new18.png);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsanb .news-komsan3b .new-img7b p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsanb .news-komsan3b .new-img7b .sub-img7b:hover{
+    transform: scale(0.97);
+}
+.news-komsanb .news-komsan3b .new-img8b{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsanb .news-komsan3b .new-img8b .sub-img8b{
+    width: 100%;
+    height: 65%;
+    background-image: url(/img/new19.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsanb .news-komsan3b .new-img8b p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsanb .news-komsan3b .new-img8b .sub-img8b:hover{
+    transform: scale(0.97);
+}
+.news-komsanb .news-komsan3b .new-img9b{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsanb .news-komsan3b .new-img9b .sub-img9b{
+    width: 100%;
+    height: 65%;
+    background-image: url(/img/new20.png);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsanb .news-komsan3b .new-img9b p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsanb .news-komsan3b .new-img9b .sub-img9b:hover{
+    transform: scale(0.97);
+}
+.komsan-containerc{
+    width: 74%;
+    overflow: hidden;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
+}
+.komsan-containerc .sub-komsanc{
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    border-bottom: 5px solid rgba(255, 98, 0, 0.892);
+    margin-bottom: 5px;
+}
+.komsan-containerc .sub-komsanc .title-komsanc{
+    width: 12%;
+    height: 100%;
+    background: rgba(255, 98, 0, 0.892);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Koulen", sans-serif;
+    color: rgb(255, 255, 255);
+    padding-top: 1px;
+    -webkit-clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 25%, 75% 0);
+    clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 100%, 75% 0);
+}
+.komsan-containerc .news-komsanc{
+    width: 100%;
+    height: 450px;
+    box-shadow: 20px;
+    outline: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.komsan-containerc .news-komsanc .news-komsan1c{
+    width: 28%;
+    height:90%;
+    background-color: hsla(26, 92%, 42%, 0.849);
+    float: left;
+}
+.komsan-containerc .news-komsanc .news-komsan1c .news-imgc{
+    width: 100%;
+    height: 60%;
+    background-image: url(/img/new21.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.komsan-containerc .news-komsanc .news-komsan1c p{
+    font-family: "Battambang", system-ui;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    margin-left: 16px;
+    margin-top: 10px;
+}
+.komsan-containerc .news-komsanc .news-komsan1c .news-imgc:hover{
+    transform: scale(0.99);
+}
+.news-komsanc .news-komsan2c{
+    width: 70%;
+    margin-left: 2%;
+    height: 45%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.news-komsanc .news-komsan2c .new-img2c{
+    width:24.5%;
+    height: 98%;
+
+}
+.news-komsanc .news-komsan2c .new-img2c .sub-img2c{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 0, 217);
+    background-image: url(/img/new22.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsanc .news-komsan2c .new-img2c p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsanc .news-komsan2c .new-img2c .sub-img2c:hover{
+    transform: scale(0.97);
+}
+.news-komsanc .news-komsan2c .new-img3c{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsanc .news-komsan2c .new-img3c .sub-img3c{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 0, 217);
+    background-image: url(/img/new23.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsanc .news-komsan2c .new-img3c p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsanc .news-komsan2c .new-img3c .sub-img3c:hover{
+    transform: scale(0.97);
+}
+.news-komsanc .news-komsan2c .new-img4c{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsanc .news-komsan2c .new-img4c .sub-img4c{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 0, 217);
+    background-image: url(/img/new24.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsanc .news-komsan2c .new-img4c p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsanc .news-komsan2c .new-img4c .sub-img4c:hover{
+    transform: scale(0.97);
+}
+.news-komsanc .news-komsan2c .new-img5c{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsanc .news-komsan2c .new-img5c .sub-img5c{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 0, 217);
+    background-image: url(/img/new25.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsanc .news-komsan2c .new-img5c p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsanc .news-komsan2c .new-img5c .sub-img5c:hover{
+    transform: scale(0.97);
+}
+.news-komsanc .news-komsan3c .new-img6c{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsanc .news-komsan3c .new-img6c .sub-img6c{
+    width: 100%;
+    height: 65%;
+    background-color: rgb(255, 0, 217);
+    background-image: url(/img/new26.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsanc .news-komsan3c .new-img6c p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsanc .news-komsan3c .new-img6c .sub-img6c:hover{
+    transform: scale(0.97);
+}
+.news-komsanc .news-komsan3c{
+    width: 70%;
+    margin-left: 2%;
+    height: 45%;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.news-komsanc .news-komsan3c .new-img7c{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsanc .news-komsan3c .new-img7c .sub-img7c{
+    width: 100%;
+    height: 65%;
+    background-image: url(/img/new27.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsanc .news-komsan3c .new-img7c p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsanc .news-komsan3c .new-img7c .sub-img7c:hover{
+    transform: scale(0.97);
+}
+.news-komsanc .news-komsan3c .new-img8c{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsanc .news-komsan3c .new-img8c .sub-img8c{
+    width: 100%;
+    height: 65%;
+    background-image: url(/img/new28.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsanc .news-komsan3c .new-img8c p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsanc .news-komsan3c .new-img8c .sub-img8c:hover{
+    transform: scale(0.97);
+}
+.news-komsanc .news-komsan3c .new-img9c{
+    width:24.5%;
+    height: 98%;
+}
+.news-komsanc .news-komsan3c .new-img9c .sub-img9c{
+    width: 100%;
+    height: 65%;
+    background-image: url(/img/new29.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.news-komsanc .news-komsan3c .new-img9c p{
+    color: rgba(0, 0, 0, 0.734);
+    font-size: 12px;
+    font-family: "Battambang", system-ui;
+    transform: translateY(-10px);
+}
+.news-komsanc .news-komsan3c .new-img9c .sub-img9c:hover{
+    transform: scale(0.97);
+}
+.last-container{
+    width: 100%;
+    height: 280px;
+    background-color: black;
+}
+.last-container .footder{
+    width: 74%;
+    height: 100%;
+    margin: auto;
+}
+.last-container .footder .footer1{
+    width: 29%;
+    height: 100%;
+    float: left;
+}
+.last-container .footder .footer2{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.last-container .footder .footer3{
+    width: 20%;
+    height: 100%;
+    float: left;
+    margin-left: 1%;
+}
+.last-container .footder .footer1 .footer1-img{
+    width: 50%;
+    height: 28%;
+    margin-top: 45px;
+    padding: 0;
+}
+.last-container .footder .footer1 .footer1-img img{
+    width: 90%;
+    height: 76%;
+}
+.last-container .footder .footer1 .footer1-img p{
+    color: white;
+}
+.last-container .footder .footer2 .footer2-img{
+    width: 50%;
+    height: 28%;
+    margin-top: 45px;
+    padding: 0;
+}
+.last-container .footder .footer2 .footer2-img h1{
+    color: rgb(210, 209, 209, 0.868);
+    font-family: "Battambang", system-ui;
+    font-size: 26px;
+}
+.last-container .footder .footer3 .footer2-img h1{
+    color: rgb(210, 209, 209, 0.868);
+    font-family: "Koulen", sans-serif;
+    font-size: 20px;
+    transform: translateY(20px);
+    margin-bottom: 20px;
+}
+.last-container .footder .footer2 .footer2-img .ff1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50%;
+    float: left;
+}
+.last-container .footder .footer2 .footer2-img .ff1 img{
+    width: 14.5%;
+    margin-right: 4px;
+}
+.last-container .footder .footer2 .footer2-img .ff2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50%;
+    float: left;
+}
